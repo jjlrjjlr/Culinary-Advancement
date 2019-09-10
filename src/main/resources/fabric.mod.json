@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "culinaryadvancement",
-  "version": "1.14.4",
+  "version": "0.1.0",
 
   "name": "Culinary Advancement",
   "description": "Culinary Advancement aims to improve upon vanilla food mechanics by adding a variety of new foods and ingredients.",
@@ -9,11 +9,11 @@
     "jjlr"
   ],
   "contact": {
-    "homepage": null,
-    "sources": null
+    "homepage": "https://github.com/jjlrjjlr/Culinary-Advancement",
+    "sources": "https://github.com/jjlrjjlr/Culinary-Advancement"
   },
 
-  "license": "CC0-1.0",
+  "license": "GPL-3.0",
   "icon": "assets/culinaryadvancement/icon.png",
 
   "environment": "*",
