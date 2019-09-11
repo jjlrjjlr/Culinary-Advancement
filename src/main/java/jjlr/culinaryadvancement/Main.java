@@ -1,11 +1,18 @@
 package jjlr.culinaryadvancement;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.loader.api.Version;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import jjlr.culinaryadvancement.items.*;
 
 public class Main implements ModInitializer {
 
-	public static String MODID = "culinaryadvancement";
+	public static final String MODID = "culinaryadvancement";
+	public static final String VERSION = "0.1.0";
+	public static final Logger logger = LogManager.getLogger("culinaryadvancementlogger");
 
 	@Override
 	public void onInitialize() {
@@ -13,8 +20,9 @@ public class Main implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		System.out.println("Hello Fabric world!");
+		logger.info("Culinary advancement version %s started with modid %s .", VERSION, MODID);
 
 		IngredientItems.registerItems();
+		CraftedFood.registerItems();
 	}
 }
