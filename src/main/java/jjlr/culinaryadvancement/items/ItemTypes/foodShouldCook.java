@@ -18,8 +18,8 @@ public class foodShouldCook extends Item {
 
     @Override
     public void appendTooltip(ItemStack itemStack_1, World worldIn, List<Text> toolTip, TooltipContext tooltipContext_1) {
-        toolTip.add(new TranslatableText("tooltip.culinaryadvancement.canbeeatenraw_line1").formatted(Formatting.DARK_PURPLE));
-        toolTip.add(new TranslatableText("tooltip.culinaryadvancement.canbeeatenraw_line2").formatted(Formatting.DARK_PURPLE));
-        toolTip.add(new TranslatableText("tooltip.culinaryadvancement.canbeeatenraw_line3").formatted(Formatting.DARK_PURPLE));
+        toolTip.add(new TranslatableText("tooltip.culinaryadvancement.canbeeatenraw_line1").formatted(Formatting.DARK_GREEN));
+        toolTip.add(new TranslatableText("tooltip.culinaryadvancement.canbeeatenraw_line2").formatted(Formatting.DARK_GREEN));
+        toolTip.add(new TranslatableText("tooltip.culinaryadvancement.canbeeatenraw_line3").formatted(Formatting.DARK_GREEN));
     }
 }

@@ -1,10 +1,13 @@
 {
     "item.culinaryadvancement.apple_pie_uncooked": "Uncooked Apple Pie",
     "item.culinaryadvancement.apple_pie_cooked": "Baked Apple Pie",
+    "item.culinaryadvancement.chorus_cake": "Chorus Cake",
     "item.culinaryadvancement.tea_leaf": "Tea Leaves",
     "item.culinaryadvancement.wheat_dough": "Raw Dough",
     "itemgroup.culinaryadvancement.culinary_advancement_itemgroup": "Culinary Advancement",
     "tooltip.culinaryadvancement.canbeeatenraw_line1": "Can be eaten raw,",
     "tooltip.culinaryadvancement.canbeeatenraw_line2": "but perhaps cooking",
-    "tooltip.culinaryadvancement.canbeeatenraw_line3": "this would be better?"
+    "tooltip.culinaryadvancement.canbeeatenraw_line3": "this would be better?",
+    "tooltip.culinaryadvancement.chorus_cake1": "Eat to teleport back",
+    "tooltip.culinaryadvancement.chorus_cake2": "to the surface."
 }

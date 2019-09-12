@@ -10,11 +10,13 @@ import net.minecraft.util.registry.Registry;
 public class CraftedFood{
     
     public static final foodShouldCook APPLE_PIE_UNCOOKED = new foodShouldCook(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(2).saturationModifier(0.2f).build()));
+    public static final ChorusCake CHORUS_CAKE = new ChorusCake(new Item.Settings().group(CAItemGroup.initItemGroup).food(new FoodComponent.Builder().hunger(4).saturationModifier(0.2f).alwaysEdible().build()));
     public static final foodShouldCook WHEAT_DOUGH = new foodShouldCook(new Item.Settings().group(CAItemGroup.initItemGroup).food(new FoodComponent.Builder().hunger(2).saturationModifier(0.1f).build()));
 
     public static void registerItems(){
 
         Registry.register(Registry.ITEM, new Identifier("apple_pie_uncooked"), APPLE_PIE_UNCOOKED);
+        Registry.register(Registry.ITEM, new Identifier("chorus_cake"), CHORUS_CAKE);
         Registry.register(Registry.ITEM, new Identifier("wheat_dough"), WHEAT_DOUGH);
     }
 }
