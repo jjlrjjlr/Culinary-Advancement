@@ -1,8 +1,6 @@
 package jjlr.culinaryadvancement;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.loader.api.Version;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -20,9 +18,13 @@ public class Main implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		logger.info("Culinary advancement version %s started with modid %s .", VERSION, MODID);
+		logger.info("Culinary advancement version {} started with modid {}.", VERSION, MODID);
+
+		
 
 		IngredientItems.registerItems();
 		CraftedFood.registerItems();
 	}
+
+
 }

@@ -6,7 +6,7 @@ import net.minecraft.util.registry.Registry;
 
 public class IngredientItems{
 
-    public static final Item TEA_LEAF = new Item(new Item.Settings().group(ItemGroup.MISC).food(new FoodComponent.Builder().hunger(1).saturationModifier(0.0f).build()));
+    public static final Item TEA_LEAF = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(1).saturationModifier(0.0f).build()));
 
     public static void registerItems(){
         
