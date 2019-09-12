@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "culinaryadvancement:uncooked_apple_pie"
+    },
+    "result": "culinaryadvancement:apple_pie",
+    "experience": 0.35
+  }

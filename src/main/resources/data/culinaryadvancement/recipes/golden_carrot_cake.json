@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "pattern": [
+      "CC",
+      "W "
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:golden_carrot"
+      },
+      "X": {
+        "item": "culinaryadvancement:wheat_dough"
+      }
+    },
+    "result": {
+      "item": "culinaryadvancement:golden_carrot_cake",
+      "count": 1
+    }
+  }
+

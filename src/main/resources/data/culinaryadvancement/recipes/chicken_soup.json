@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "pattern": [
+      "CCX",
+      "PBX",
+      "PG "
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:raw_chicken"
+      },
+      "X": {
+        "item": "minecraft:carrot"
+      },
+      "P": {
+        "item": "minecraft:potato"
+      },
+      "B": {
+        "item": "minecraft:bowl"
+      },
+      "G": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "culinaryadvancement:chicken_soup",
+      "count": 1
+    }
+  }
+

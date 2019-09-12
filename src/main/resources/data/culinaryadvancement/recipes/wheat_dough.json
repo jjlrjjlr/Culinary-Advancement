@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "pattern": [
+      "WW",
+      "WW"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "result": {
+      "item": "culinaryadvancement:wheat_dough",
+      "count": 2
+    }
+  }
+

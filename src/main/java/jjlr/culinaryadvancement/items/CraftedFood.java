@@ -16,9 +16,9 @@ public class CraftedFood {
     public static final Item CHICKEN_SOUP = new Item(new Item.Settings().group(CAItemGroup.initItemGroup)
             .food(new FoodComponent.Builder().hunger(6).saturationModifier(0.6f)
                     .statusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 2400, 0), 1.0f)
-                    .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 240, 0), 0.95f).build()));
+                    .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 240, 0), 0.95f).build()).maxCount(4));
     public static final ChorusCake CHORUS_CAKE = new ChorusCake(new Item.Settings().group(CAItemGroup.initItemGroup)
-            .food(new FoodComponent.Builder().hunger(4).saturationModifier(0.2f).alwaysEdible().build()));
+            .food(new FoodComponent.Builder().hunger(4).saturationModifier(0.2f).alwaysEdible().build()).maxCount(8));
     public static final Item GOLDEN_CARROT_CAKE = new Item(new Item.Settings().group(CAItemGroup.initItemGroup)
             .food(new FoodComponent.Builder().hunger(5).saturationModifier(0.6f)
                     .statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 600, 0), 1.0f).build()));
