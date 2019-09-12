@@ -24,6 +24,7 @@ public class Main implements ModInitializer {
 
 		IngredientItems.registerItems();
 		CraftedFood.registerItems();
+		SmeltedFood.registerItems();
 	}
 
 
