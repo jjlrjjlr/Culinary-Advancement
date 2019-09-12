@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:map"
+      },
+      "title": {
+        "translate": "advancement.culinaryadvancement.root_title"
+      },
+      "description": {
+        "translate": "advancement.culinaryadvancement.root_description"
+      },
+      "frame": "goal",
+      "hidden": false
+    },
+    "criteria": {
+      "obtain_ca_item": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "tag": "culinaryadvancement:culinaryadvancement_items"
+                }
+            ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "obtain_ca_item"
+      ]
+    ]
+  }

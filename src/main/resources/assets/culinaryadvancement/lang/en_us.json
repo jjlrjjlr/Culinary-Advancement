@@ -13,5 +13,9 @@
     "tooltip.culinaryadvancement.chorus_cake1": "Eat to teleport back",
     "tooltip.culinaryadvancement.chorus_cake2": "to the surface.",
     "tooltip.culinaryadvancement.golden_carrot_cake1": "Will grant 30 seconds of",
-    "tooltip.culinaryadvancement.golden_carrot_cake2": "night vision when eaten."
+    "tooltip.culinaryadvancement.golden_carrot_cake2": "night vision when eaten.",
+    "advancement.culinaryadvancement.baker_title": "Baker",
+    "advancement.culinaryadvancement.baker_description": "Craft wheat into raw dough.",
+    "advancement.culinaryadvancement.root_title": "The path to Culinary Advancement",
+    "advancement.culinaryadvancement.root_description": "There are many things to cook, and many foods to eat. You should get started."
 }

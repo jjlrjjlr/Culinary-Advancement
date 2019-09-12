@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "culinaryadvancement:apple_pie"
+      ]
+    },
+    "criteria": {
+      "has_apple_pie": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "culinaryadvancement:apple_pie"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "culinaryadvancement:apple_pie"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_apple_pie",
+        "has_the_recipe"
+      ]
+    ]
+  }

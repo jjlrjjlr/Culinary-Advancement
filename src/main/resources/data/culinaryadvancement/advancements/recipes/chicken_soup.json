@@ -1,0 +1,31 @@
+{
+    "rewards": {
+      "recipes": [
+        "culinaryadvancement:chicken_soup"
+      ]
+    },
+    "criteria": {
+      "has_chicken_soup": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "culinaryadvancement:chicken_soup"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "culinaryadvancement:chicken_soup"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_chicken_soup",
+        "has_the_recipe"
+      ]
+    ]
+  }

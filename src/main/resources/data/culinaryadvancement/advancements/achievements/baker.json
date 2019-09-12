@@ -1,0 +1,35 @@
+{
+    "parent": "culinaryadvancement:achievments/root",
+    "display":{
+      "title": {
+        "translate": "advancement.culinaryadvancement.baker_title"
+      },
+      "description": {
+        "translate": "advancement.culinaryadvancement.baker_description"
+      }
+    },
+    "criteria": {
+      "has_wheat_dough": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "culinaryadvancement:wheat_dough"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "culinaryadvancement:wheat_dough"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_wheat_dough",
+        "has_the_recipe"
+      ]
+    ]
+  }
