@@ -1,5 +1,6 @@
 package jjlr.culinaryadvancement.items;
 
+import jjlr.culinaryadvancement.Main;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -10,6 +11,6 @@ public class IngredientItems{
 
     public static void registerItems(){
         
-        Registry.register(Registry.ITEM, new Identifier("tea_leaf"), TEA_LEAF);
+        Registry.register(Registry.ITEM, new Identifier(Main.MODID,"tea_leaf"), TEA_LEAF);
     }
 }

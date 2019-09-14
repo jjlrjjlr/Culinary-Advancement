@@ -2,20 +2,20 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
       {
-        "item": "minecraft:golden_carrot"
+        "item": "minecraft:apple"
       },
       {
-        "item": "minecraft:golden_carrot"
+        "item": "minecraft:apple"
       },
       {
-        "item": "minecraft:golden_carrot"
+        "item": "minecraft:apple"
       },
       {
         "item": "culinaryadvancement:wheat_dough"
       }
     ],
     "result": {
-      "item": "culinaryadvancement:golden_carrot_cake",
+      "item": "culinaryadvancement:apple_pie_uncooked",
       "count": 1
     }
   }

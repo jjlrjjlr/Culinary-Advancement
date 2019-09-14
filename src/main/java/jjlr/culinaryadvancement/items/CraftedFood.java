@@ -1,5 +1,6 @@
 package jjlr.culinaryadvancement.items;
 
+import jjlr.culinaryadvancement.Main;
 import jjlr.culinaryadvancement.items.ItemTypes.foodShouldCook;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -28,10 +29,10 @@ public class CraftedFood {
 
     public static void registerItems() {
 
-        Registry.register(Registry.ITEM, new Identifier("apple_pie_uncooked"), APPLE_PIE_UNCOOKED);
-        Registry.register(Registry.ITEM, new Identifier("chicken_soup"), CHICKEN_SOUP);
-        Registry.register(Registry.ITEM, new Identifier("chorus_cake"), CHORUS_CAKE);
-        Registry.register(Registry.ITEM, new Identifier("golden_carrot_cake"), GOLDEN_CARROT_CAKE);
-        Registry.register(Registry.ITEM, new Identifier("wheat_dough"), WHEAT_DOUGH);
+        Registry.register(Registry.ITEM, new Identifier(Main.MODID, "apple_pie_uncooked"), APPLE_PIE_UNCOOKED);
+        Registry.register(Registry.ITEM, new Identifier(Main.MODID, "chicken_soup"), CHICKEN_SOUP);
+        Registry.register(Registry.ITEM, new Identifier(Main.MODID, "chorus_cake"), CHORUS_CAKE);
+        Registry.register(Registry.ITEM, new Identifier(Main.MODID, "golden_carrot_cake"), GOLDEN_CARROT_CAKE);
+        Registry.register(Registry.ITEM, new Identifier(Main.MODID, "wheat_dough"), WHEAT_DOUGH);
     }
 }

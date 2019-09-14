@@ -2,11 +2,11 @@
     "replace": false,
     "values": [
       "culinaryadvancement:apple_pie",
+      "culinaryadvancement:apple_pie_uncooked",
       "culinaryadvancement:chicken_soup",
       "culinaryadvancement:chorus_cake",
       "culinaryadvancement:golden_carrot_cake",
       "culinaryadvancement:tea_leaf",
-      "culinaryadvancement:uncooked_apple_pie",
       "culinaryadvancement:wheat_dough"
     ]
   }

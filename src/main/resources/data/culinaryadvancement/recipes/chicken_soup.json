@@ -1,30 +1,37 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "pattern": [
-      "CCX",
-      "PBX",
-      "PG "
-    ],
-    "key": {
-      "C": {
-        "item": "minecraft:raw_chicken"
+    "ingredients": [
+      {
+        "item": "minecraft:chicken"
       },
-      "X": {
+      {
+        "item": "minecraft:chicken"
+      },
+      {
         "item": "minecraft:carrot"
       },
-      "P": {
+      {
+        "item": "minecraft:carrot"
+      },
+      {
         "item": "minecraft:potato"
       },
-      "B": {
+      {
+        "item": "minecraft:potato"
+      },
+      {
         "item": "minecraft:bowl"
       },
-      "G": {
-        "item": "minecraft:gold_ingot"
+      {
+        "item": "minecraft:gold_nugget"
+      },
+      {
+        "item": "minecraft:gold_nugget"
       }
-    },
+    ],
     "result": {
       "item": "culinaryadvancement:chicken_soup",
-      "count": 1
+      "count": 2
     }
   }
 

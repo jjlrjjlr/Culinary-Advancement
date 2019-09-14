@@ -1,18 +1,28 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "pattern": [
-      "CCC",
-      "CWC",
-      "C  "
-    ],
-    "key": {
-      "C": {
+    "ingredients": [
+      {
         "item": "minecraft:chorus_fruit"
       },
-      "X": {
+      {
+        "item": "minecraft:chorus_fruit"
+      },
+      {
+        "item": "minecraft:chorus_fruit"
+      },
+      {
+        "item": "minecraft:chorus_fruit"
+      },
+      {
+        "item": "minecraft:chorus_fruit"
+      },
+      {
+        "item": "minecraft:chorus_fruit"
+      },
+      {
         "item": "culinaryadvancement:wheat_dough"
       }
-    },
+    ],
     "result": {
       "item": "culinaryadvancement:chorus_cake",
       "count": 1

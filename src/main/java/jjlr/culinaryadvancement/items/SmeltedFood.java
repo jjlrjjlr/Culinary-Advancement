@@ -1,5 +1,6 @@
 package jjlr.culinaryadvancement.items;
 
+import jjlr.culinaryadvancement.Main;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
@@ -11,6 +12,6 @@ public class SmeltedFood {
 
     public static void registerItems() {
         
-        Registry.register(Registry.ITEM, new Identifier("apple_pie"), APPLE_PIE);
+        Registry.register(Registry.ITEM, new Identifier(Main.MODID, "apple_pie"), APPLE_PIE);
     }
 }

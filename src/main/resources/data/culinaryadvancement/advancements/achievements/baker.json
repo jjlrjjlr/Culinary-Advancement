@@ -1,6 +1,9 @@
 {
     "parent": "culinaryadvancement:achievments/root",
     "display":{
+      "icon": {
+        "item": "culinaryadvancement:wheat_dough"
+      },
       "title": {
         "translate": "advancement.culinaryadvancement.baker_title"
       },
